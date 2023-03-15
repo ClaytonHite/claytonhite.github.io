@@ -92,25 +92,41 @@ a {
 .picture-with-info {
     margin-top: 20px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: aliceblue;
-    border-width: 2px;
     border-color: black;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 .info {
     text-align: center;
-    margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 #picture {    
     border-radius: 5%;
-    transform: scale(60%);
+    transform: scale(70%);
+    border-style: groove;
+    border-top: 0px;
+    border-left: 0px;
 }
 
 .display-none {
     display: none;
+}
+
+.key-points {
+    text-align: center;
+    background-color: rgba(73,80,160,0.123);
+}
+
+.key-points p {
+    width: 100vw;
+    padding: 10px;
+}
+
+.description{
+    margin: 20px;
 }
 
 @media(min-width: 500px)  {
@@ -153,6 +169,7 @@ a {
 
     #picture {
         transform: none;
+        margin-bottom: 0px;
     }
 
     .info {
@@ -161,6 +178,35 @@ a {
 
     .open-close-icon {
         display: none;
+    }
+
+    .key-points ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .key-points h2 {
+        margin: 10px;
+        padding: 10px;
+        background-color: rgba(73,80,160,0.123);
+    }
+
+    .key-points li {
+        display: flex;
+        padding: 10px;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .key-points p {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -174,6 +220,7 @@ a {
     .nav-logo-container {
         width: 100%;
         padding: 0;
+        justify-content: flex-start;
     }
 
     .nav-links-container {
@@ -185,4 +232,15 @@ a {
         align-items: center;
         flex: 1;
     }
+
+    .key-points li {
+        display: flex;
+        width: 33.333%;
+        justify-content: center;
+    }
+
+    .key-points p {
+        padding: 0px;
+    }
+
 }
