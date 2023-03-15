@@ -11,6 +11,10 @@ body {
 overflow-x: hidden;
 }
 
+main {
+    background-color: rgba(73,80,160,0.123);
+}
+
 ul {
     list-style: none;
 }
@@ -40,7 +44,6 @@ a {
 
 .nav-logo {
     display: flex;
-    border-radius: 50%;
     height: 40px;
     width: 20px;
 }
@@ -58,13 +61,12 @@ a {
     font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     margin: 5px 0px 10px;
 }
 
 .nav-links li {
     border-bottom: 1px solid rgba(73,80,160,0.123);
-    padding: 10px 0px 40px;
 }
 
 .nav-links-container {
@@ -90,12 +92,13 @@ a {
 }
 
 .picture-with-info {
-    margin-top: 20px;
+    margin: 0px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
     border-color: black;
     border-radius: 10%;
+    box-shadow: 2px 2px 8px -6px #101a67;
 }
 
 .info {
@@ -117,7 +120,18 @@ a {
 
 .key-points {
     text-align: center;
+    
+}
+
+.key-points li {
+    padding: 10px;
+}
+
+.key-points h2 {
+    padding: 10px;
     background-color: rgba(73,80,160,0.123);
+    box-shadow: 2px 2px 8px -6px #101a67;
+    border-radius: 10%;
 }
 
 .key-points p {
@@ -125,14 +139,40 @@ a {
     padding: 10px;
 }
 
-.description{
-    margin: 20px;
+.other-experience {
+    text-align: center;    
+}
+
+.other-experience h2 {
+    background-color: rgba(73,80,160,0.123);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;    
+    box-shadow: 2px 2px 8px -6px #101a67;
+    border-radius: 10%;
+}
+
+.other-experience li {
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.other-experience a {
+    padding: 10px; 
+    width: fit-content;
+}
+
+
+.center-text {
+    text-align: center;
 }
 
 @media(min-width: 500px)  {
+    
     .nav-logo-container {
         justify-content: center;
-        padding: 25px 0px 0px;
+        padding: 25px 18px 0px 0px;
     }
 
     #mobileNavMenu {
@@ -149,15 +189,6 @@ a {
         margin: 18px 0px 20px;
     }
 
-    .nav-links li {
-        border: none;
-        padding: 0;
-    }
-
-    .display-none {
-        display: none;
-    }
-
     .picture-with-info {
         flex-direction: row;
         align-items: center;
@@ -172,10 +203,6 @@ a {
         margin-bottom: 0px;
     }
 
-    .info {
-        margin: 0;
-    }
-
     .open-close-icon {
         display: none;
     }
@@ -185,11 +212,10 @@ a {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .key-points h2 {
-        margin: 10px;
-        padding: 10px;
-        background-color: rgba(73,80,160,0.123);
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .key-points li {
@@ -204,10 +230,11 @@ a {
         text-align: left;
     }
 
-    .description{
+    .description {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 @media(min-width: 1025px) {
@@ -242,5 +269,5 @@ a {
     .key-points p {
         padding: 0px;
     }
-
+    
 }
