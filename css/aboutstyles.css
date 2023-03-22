@@ -4,9 +4,13 @@
     width: fit-content;
 }
 
-.about-container {
+.about-section {
     row-gap: 2rem;
     text-align: center;
+    background-color: rgba(73, 80, 160, 0.123);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding-bottom: 20px;
 }
 
 .about-subtitle {
@@ -24,7 +28,7 @@
 }
 
 @media screen and (min-width: 500px) {
-    .about-container {
+    .about-section {
         padding: 40px;
         display: flex;
         align-items: center;
@@ -41,7 +45,7 @@
 }
 
 @media screen and (min-width: 1025px) {
-    .about-container {
+    .about-section {
         padding-top: 2rem;
     }
 

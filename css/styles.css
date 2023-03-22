@@ -21,11 +21,22 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(68, 68, 68);
+
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    background-color: #54b3d6;
+    color: white;
+    border-radius: 10%;
 }
 
 #navbar {
-    box-shadow: 2px 2px 8px -6px #101a67;
+    box-shadow: 2px 2px 8px -6px #070c30;
 }
 
 #mobileNavMenu {
@@ -103,7 +114,12 @@ a {
 
 .info {
     text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 20px;
+}
+.info h1 {
+    padding-bottom: 30px;
 }
 
 #picture {
@@ -131,6 +147,9 @@ a {
 
 .key-points h2 {
     padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(73, 80, 160, 0.123);
     box-shadow: 2px 2px 8px -6px #101a67;
     border-radius: 10%;
@@ -148,10 +167,10 @@ a {
 
 .other-experience h2 {
     padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(73, 80, 160, 0.123);
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 10px;
     box-shadow: 2px 2px 8px -6px #101a67;
     border-radius: 10%;
 }
@@ -222,6 +241,12 @@ a {
         margin-right: 40px;
     }
 
+    .other-experience h2 {
+        padding: 20px 0px 20px 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
     .key-points li {
         display: flex;
         padding: 10px;
@@ -230,15 +255,15 @@ a {
     }
 
     .key-points p {
-        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
         text-align: left;
     }
 
     .description {
         display: flex;
         flex-direction: column;
-    }
-
+    }    
 }
 
 @media screen and (min-width: 1025px) {
@@ -269,9 +294,4 @@ a {
         width: 33.333%;
         justify-content: center;
     }
-
-    .key-points p {
-        padding: 0px;
-    }
-
 }
