@@ -1,6 +1,6 @@
 # ResumeWebsiteMobileFirst
 ## Summary
-    I thought it'd be a great idea to make a resume website, it'd stand out to employers when applying or when networking with other people in tech. It could even have a QR code linked to it which could be added on business cards, etc. This website includes the skills and experience I have in the programming field, an about me section, and projects page going into more details about certain projects I have written. I have included features such as creating a responsive menu with CSS, creating a responsive menu with JavaScript, running PageSpeed Insights from google.com and recieved a score of 60 or better, and added transition animation to an element on hover. I will also continue to work on it to improve the PageSpeed Insights score.
+I thought it'd be a great idea to make a resume website, it'd stand out to employers when applying or when networking with other people in tech. It could even have a QR code linked to it which could be added on business cards, etc. This website includes the skills and experience I have in the programming field, an about me section, and projects page going into more details about certain projects I have written. I have included features such as creating a responsive menu with CSS, creating a responsive menu with JavaScript, running PageSpeed Insights from google.com and recieved a score of 60 or better, and added transition animation to an element on hover. I will also continue to work on it to improve the PageSpeed Insights score.
 
 
 ## Basic Project Requirements
