@@ -22,10 +22,10 @@ This simply toggles the CSS class when the button is pressed on the page. It cha
 https://pagespeed.web.dev/analysis/http-claytonhite-github-io/62qm2ca5jo?form_factor=mobile - This was really cool and rewarding to see after I was able to get the site hosted on GitHub and then Google domain redirecting there. http://ClaytonHite.com
 
 ### Run PageSpeed Insights from google.com get a score of 80 or better
-Accessibility scored lowest, will make changes to raise the score
+TODO -- > Accessibility scored lowest, will make changes to raise the score
 
 ### Run an accessibility check and make and document the adjustments in your readme
-https://pagespeed.web.dev/analysis/http-claytonhite-github-io/62qm2ca5jo?form_factor=mobile - Accessibility scored is recorded here on first run of the page. Will make changes to raise the score.
+TODO -- > https://pagespeed.web.dev/analysis/http-claytonhite-github-io/62qm2ca5jo?form_factor=mobile - Accessibility scored is recorded here on first run of the page. Will make changes to raise the score.
 
 ### Add your own transition animation(s) to an element on hover.
 Nav links and content on page with links attached have are highlighted when hovered, with a transition effect added to it.
