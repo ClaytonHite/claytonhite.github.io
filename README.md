@@ -35,7 +35,8 @@ Added title to button instead of alt tag and scored an 88 on accesibility.
 
 Third Run 
 https://pagespeed.web.dev/analysis/https-claytonhite-github-io/tz7blk48lg?form_factor=mobile
-Added strong tags instead of headers for easier page navigation
+Scored 100 on accessibility. 
+Added contrast to links on the page by making them darker, took out paragraph tags from the ul / li's, and added strong tags instead of headers for easier page navigation
 
 
 ### Add your own transition animation(s) to an element on hover.
