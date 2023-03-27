@@ -29,9 +29,13 @@ Added image width and height to display at the correct ratio and received a scor
 https://pagespeed.web.dev/analysis/http-claytonhite-github-io/62qm2ca5jo?form_factor=mobile
 Accessibility score is recorded here on first run of the page. 
 
-Second Run
+Second Run 
 https://pagespeed.web.dev/analysis/https-claytonhite-github-io/yzyh1rw1j2?form_factor=mobile
 Added title to button instead of alt tag and scored an 88 on accesibility.
+
+Third Run 
+https://pagespeed.web.dev/analysis/https-claytonhite-github-io/tz7blk48lg?form_factor=mobile
+Added strong tags instead of headers for easier page navigation
 
 
 ### Add your own transition animation(s) to an element on hover.
