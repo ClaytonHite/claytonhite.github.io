@@ -131,6 +131,11 @@ a {
     border-left: 0px;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
 .display-none {
     display: none;
 }
@@ -281,11 +286,6 @@ footer {
         padding-top: 10px;
         width: 50%;
         justify-content: center;
-    }
-
-    .description {
-        display: flex;
-        flex-direction: column;
     }
 }
 
