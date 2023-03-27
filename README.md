@@ -4,9 +4,9 @@
 
 ## Basic Project Requirements
 
-### [x] Choose a color palette - ​​​https://coolors.co/palettes/trending - inspiration from the lighter blue palettes
-### [x] Set a font stack - https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap
-### [x] Include a minimum of 2 media queries that create a better layout/user experience
+### [X] Choose a color palette - ​​​https://coolors.co/palettes/trending - inspiration from the lighter blue palettes
+### [X] Set a font stack - https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap
+### [X] Include a minimum of 2 media queries that create a better layout/user experience
 I included two media queries that rearranges elements on the navigation bar, in the key skills sections, experience section, and the about me page. If page is too small for the nav bar it is hidden and then accessed via a button. Mobile First Design which adapts to Tablets and finally Dekstops.
 
 
