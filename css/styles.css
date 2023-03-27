@@ -189,9 +189,15 @@ a {
     width: fit-content;
 }
 
-
 .center-text {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(73, 80, 160, 0.123);
 }
 
 @media screen and (min-width: 500px) {
