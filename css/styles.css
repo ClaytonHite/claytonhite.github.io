@@ -21,19 +21,18 @@ ul {
 
 a {
     text-decoration: none;
-
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #54b3d6;
+    box-shadow: inset 0 0 0 0 #173b47;
+    color: #050052;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-a:hover {
-    background-color: #54b3d6;
-    color: white;
-    border-radius: 10%;
-}
+    a:hover {
+        background-color: #54b3d6;
+        color: white;
+        border-radius: 10%;
+    }
 
 #navbar {
     box-shadow: 2px 2px 8px -6px #070c30;
@@ -45,13 +44,13 @@ a:hover {
     cursor: pointer;
 }
 
-#mobileNavMenuButton div {
-    width: 30px;
-    height: 3px;
-    background-color: #000;
-    margin: 5px;
-    border-radius: 5px;
-}
+    #mobileNavMenuButton div {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px;
+        border-radius: 5px;
+    }
 
 .nav-logo {
     display: flex;
@@ -76,9 +75,9 @@ a:hover {
     margin: 5px 0px 10px;
 }
 
-.nav-links li {
-    border-bottom: 1px solid rgba(73, 80, 160, 0.123);
-}
+    .nav-links li {
+        border-bottom: 1px solid rgba(73, 80, 160, 0.123);
+    }
 
 .nav-links-container {
     max-height: 0px;
@@ -90,17 +89,17 @@ a:hover {
     max-height: 2000px;
 }
 
-.open-nav-links .line1 {
-    transform: rotate(-45deg) translate(-7px, 6px);
-}
+    .open-nav-links .line1 {
+        transform: rotate(-45deg) translate(-7px, 6px);
+    }
 
-.open-nav-links .line2 {
-    opacity: 0;
-}
+    .open-nav-links .line2 {
+        opacity: 0;
+    }
 
-.open-nav-links .line3 {
-    transform: rotate(45deg) translate(-5.2px, -4px);
-}
+    .open-nav-links .line3 {
+        transform: rotate(45deg) translate(-5.2px, -4px);
+    }
 
 .picture-with-info {
     padding: 15px 0px 15px 0px;
@@ -110,7 +109,7 @@ a:hover {
     background-color: aliceblue;
     border-color: black;
     border-radius: 10%;
-    box-shadow: 2px 2px 8px -6px #101a67;
+    box-shadow: 2px 6px 8px -6px #000000;
 }
 
 .info {
@@ -119,9 +118,10 @@ a:hover {
     font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 20px;
 }
-.info h1 {
-    padding-bottom: 30px;
-}
+
+    .info h1 {
+        padding-bottom: 30px;
+    }
 
 #picture {
     align-self: center;
@@ -136,44 +136,46 @@ a:hover {
 }
 
 .key-points {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0px 20px 0px;
     background-color: rgba(73, 80, 160, 0.123);
     text-align: center;
-
 }
 
-.key-points li {
-    padding: 10px;
-}
+    .key-points li {
+        padding: 10px;
+    }
 
-.key-points h2 {
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(73, 80, 160, 0.123);
-    box-shadow: 2px 2px 8px -6px #101a67;
-    border-radius: 10%;
-}
-
-.key-points p {
-    width: 100vw;
-    padding: 10px;
-}
+    .key-points h2 {
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(73, 80, 160, 0.123);
+        box-shadow: 2px 6px 8px -6px #000000;
+        border-radius: 10%;
+    }
 
 .other-experience {
     background-color: rgba(73, 80, 160, 0.123);
     text-align: center;
 }
 
-.other-experience h2 {
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(73, 80, 160, 0.123);
-    box-shadow: 2px 2px 8px -6px #101a67;
-    border-radius: 10%;
+    .other-experience h2 {
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(73, 80, 160, 0.123);
+        box-shadow: 2px 6px 8px -6px #000000;
+        border-radius: 10%;
+    }
+
+.key-skills-list li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .other-experience li {
@@ -213,6 +215,12 @@ a:hover {
         margin: 18px 0px 20px;
     }
 
+    header {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
     .picture-with-info {
         flex-direction: row;
         align-items: center;
@@ -220,6 +228,7 @@ a:hover {
         justify-content: space-evenly;
         padding: 20px 40px;
         border-radius: 5%;
+        width: 75%;
     }
 
     #picture {
@@ -237,34 +246,41 @@ a:hover {
         justify-content: center;
     }
 
-    .key-points h2 {
-        margin-left: 40px;
-        margin-right: 40px;
+    .key-points {
+        align-content: center;
     }
+
+        .key-points h2 {
+            padding: 20px 0px 20px 0px;
+            margin: 0px 10vw 0px 10vw;
+        }
 
     .other-experience h2 {
         padding: 20px 0px 20px 0px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin: 0px 10vw 0px 10vw;
     }
 
     .key-points li {
         display: flex;
-        padding: 10px;
+        padding-top: 30px;
         width: 50%;
         justify-content: center;
     }
 
-    .key-points p {
-        padding-left: 60px;
-        padding-right: 60px;
-        text-align: left;
+    .key-points ul {
+        margin: 0px 12vw 0px 12vw;
+    }
+
+    .key-skills-list li {
+        padding-top: 10px;
+        width: 50%;
+        justify-content: center;
     }
 
     .description {
         display: flex;
         flex-direction: column;
-    }    
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -272,6 +288,30 @@ a:hover {
         display: flex;
         justify-content: space-between;
         padding: 20px 40px;
+    }
+
+    header {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .picture-with-info {
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 40px;
+        border-radius: 5%;
+        width: 50%;
+    }
+
+    .key-points h2 {
+        margin: 0px 10vw 0px 10vw;
+    }
+
+    .other-experience h2 {
+        margin: 0px 10vw 0px 10vw;
     }
 
     .nav-logo-container {
@@ -291,7 +331,6 @@ a:hover {
     }
 
     .key-points li {
-        display: flex;
         width: 33.333%;
         justify-content: center;
     }
