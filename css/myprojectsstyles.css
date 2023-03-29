@@ -1,3 +1,7 @@
+* {
+    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .title {
     padding: 20px 20px 0px 20px;
     border-bottom: 1px solid rgba(73, 80, 160, 0.123);
@@ -8,6 +12,14 @@ header {
     padding-bottom: 20px;
     display: flex;
     padding-right: 20px;
+}
+
+.project-wrapper {
+    background-color: rgba(73, 80, 160, 0.123);
+    border-style:inset;
+    border-radius: 10%;
+    width: 90%;
+    margin: 10px;
 }
 
 .project-section {
@@ -58,16 +70,16 @@ footer {
         padding-right: 250px;
     }
 
+    .project-wrapper {
+        display: flex;
+    }
+
     .project-section {
-        justify-content: center;
         flex-direction: row;
     }
 
     #project-image {
-        width: 50%;
-        height: 50%;
-    }
-
-    #project-description-text {
+        width: 70%;
+        height: 70%;
     }
 }

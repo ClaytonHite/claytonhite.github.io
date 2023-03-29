@@ -146,6 +146,14 @@ a {
     display: none;
 }
 
+.experience-title {
+    background-color: rgba(73, 80, 160, 0.123);
+    box-shadow: 2px 6px 8px -6px #000000;
+    border-radius: 5%;
+    padding: 10px 50px 10px 50px;
+    margin: 20px 0px 20px 0px;
+}
+
 .key-points {
     display: flex;
     flex-direction: column;
@@ -231,6 +239,11 @@ footer {
         justify-content: center;
         margin: 18px 0px 20px;
     }
+    
+    .experience-title {
+        width: 90%;
+        margin: 20px 0px 20px 0px;
+    }
 
     header {
         padding-top: 20px;
@@ -277,9 +290,14 @@ footer {
         margin: 0px 10vw 0px 10vw;
     }
 
+    .key-points div li {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
     .key-points li {
         display: flex;
-        padding-top: 30px;
         width: 50%;
         justify-content: center;
     }
@@ -300,6 +318,10 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 20px 40px;
+    }
+
+    .experience-title {
+        width: 50%;
     }
 
     header {
