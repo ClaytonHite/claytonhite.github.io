@@ -34,11 +34,11 @@ a {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-    a:hover {
-        background-color: #54b3d6;
-        color: white;
-        border-radius: 10%;
-    }
+a:hover {
+    background-color: #54b3d6;
+    color: white;
+    border-radius: 10%;
+}
 
 #navbar {
     box-shadow: 2px 2px 8px -6px #070c30;
@@ -50,13 +50,13 @@ a {
     cursor: pointer;
 }
 
-    #mobileNavMenuButton div {
-        width: 30px;
-        height: 3px;
-        background-color: #000;
-        margin: 5px;
-        border-radius: 5px;
-    }
+#mobileNavMenuButton div {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px;
+    border-radius: 5px;
+}
 
 .nav-logo {
     display: flex;
@@ -95,17 +95,17 @@ a {
     max-height: 2000px;
 }
 
-    .open-nav-links .line1 {
-        transform: rotate(-45deg) translate(-7px, 6px);
-    }
+.open-nav-links .line1 {
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
 
-    .open-nav-links .line2 {
-        opacity: 0;
-    }
+.open-nav-links .line2 {
+    opacity: 0;
+}
 
-    .open-nav-links .line3 {
-        transform: rotate(45deg) translate(-5.2px, -4px);
-    }
+.open-nav-links .line3 {
+    transform: rotate(45deg) translate(-5.2px, -4px);
+}
 
 .picture-with-info {
     padding: 15px 0px 15px 0px;
@@ -147,7 +147,7 @@ a {
 }
 
 .experience-title {
-    background-color: rgba(73, 80, 160, 0.123);
+    background-color: rgb(202, 233, 255);
     box-shadow: 2px 6px 8px -6px #000000;
     border-radius: 5%;
     padding: 10px 50px 10px 50px;
@@ -162,19 +162,26 @@ a {
     text-align: center;
 }
 
-    .key-points li {
-        padding: 10px;
-    }
+.key-points div li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
-    .key-points h2 {
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        font-size: 1.2rem;
-        font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: rgba(73, 80, 160, 0.123);
-        box-shadow: 2px 6px 8px -6px #000000;
-        border-radius: 10%;
-    }
+.key-points li {
+    padding: 10px;
+}
+
+.key-points h2 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(42, 111, 151);
+    box-shadow: 2px 6px 8px -6px #000000;
+    border-radius: 10%;
+    color: aliceblue;
+}
 
 .other-experience {
     background-color: rgba(73, 80, 160, 0.123);
@@ -186,9 +193,10 @@ a {
         text-align: center;
         font-size: 1.2rem;
         font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: rgba(73, 80, 160, 0.123);
+        background-color: rgba(42, 111, 151);
         box-shadow: 2px 6px 8px -6px #000000;
         border-radius: 10%;
+        color: aliceblue;
     }
 
 .key-skills-list li {
@@ -288,12 +296,6 @@ footer {
     .other-experience h2 {
         padding: 20px 0px 20px 0px;
         margin: 0px 10vw 0px 10vw;
-    }
-
-    .key-points div li {
-        display: flex;
-        width: 100%;
-        justify-content: center;
     }
 
     .key-points li {
