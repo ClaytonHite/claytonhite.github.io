@@ -8,9 +8,6 @@
     row-gap: 2rem;
     text-align: center;
     background-color: rgba(73, 80, 160, 0.123);
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    padding-bottom: 20px;
 }
 
 .about-subtitle {
@@ -24,6 +21,12 @@
 .about-img img {
     width: 200px;
     border-radius: .5rem;
+}
+
+footer {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 500px) {
